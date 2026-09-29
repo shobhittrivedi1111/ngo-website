@@ -1,0 +1,27 @@
+<footer class="bg-teal-900 text-teal-50">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3">
+    <div>
+      <h3 class="text-lg font-bold">{{ ngo.name }}</h3>
+      <p class="mt-2 text-sm text-teal-200">{{ ngo.address }}</p>
+      <p class="mt-1 text-sm text-teal-200">Phone: {{ ngo.phone }}</p>
+    </div>
+    <div>
+      <h4 class="font-semibold">Quick links</h4>
+      <ul class="mt-2 space-y-1 text-sm text-teal-200">
+        <li><a routerLink="/about">About</a></li>
+        <li><a routerLink="/programs">Programs</a></li>
+        <li><a routerLink="/membership">Become a member</a></li>
+        <li><a routerLink="/donate">Donate</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold">Registration</h4>
+      <p class="mt-2 text-sm text-teal-200">Registered under the {{ ngo.registration.act }}</p>
+      <p class="text-sm text-teal-200">Reg. No: {{ ngo.registration.number }}</p>
+      <p class="text-sm text-teal-200">80G URN: {{ ngo.eightyG.urn }}</p>
+    </div>
+  </div>
+  <div class="border-t border-teal-800 py-4 text-center text-xs text-teal-300">
+    © {{ year }} {{ ngo.name }}. All rights reserved.
+  </div>
+</footer>
