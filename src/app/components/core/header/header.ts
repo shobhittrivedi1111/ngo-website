@@ -4,6 +4,7 @@ import { Component, signal } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { NGO } from '../ngo.config';
 
+
 @Component({
   selector: 'app-header',
   imports: [RouterLink, RouterLinkActive],
