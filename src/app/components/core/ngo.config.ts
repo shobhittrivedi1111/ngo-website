@@ -3,6 +3,7 @@ export const NGO = {
   nameHindi: 'नया सवेरा उत्थान वेलफेयर सोसाइटी',
   address: 'Plot 27, Kedar Vihar, Goshala Road, Lucknow, Uttar Pradesh 226003',
   phone: '7007408522',
+  phone2: '8181982941',
   registration: { act: 'Societies Registration Act, 1860', number: 'LUC/04314/2023-2024', date: '27 Sep 2023' },
   eightyG: { urn: 'AAJAN2784NF20241', status: 'Provisional approval' }, // update after final approval
   upi: { vpa: 'nayas70074636@barodampay', payeeName: 'Naya Savera Utthan Welfare Society' },
@@ -56,7 +57,7 @@ export const EVENTS = [
 ];
 
 export const GALLERY = [
-  { src: 'gallery/photo1.png', caption: 'Health camp, October 2026' },
+  { src: 'gallery/photo1.png', caption: 'Health camp'},
   { src: 'gallery/photo2.png', caption: 'Blood donation drive' },
   { src: 'gallery/photo3.png', caption: 'Winter clothes distribution' },
   // add more as you get real photos
