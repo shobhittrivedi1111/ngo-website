@@ -1,9 +1,24 @@
 <header class="sticky top-0 z-50 bg-white shadow-sm">
   <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-    <a routerLink="/" (click)="close()" class="text-lg font-bold leading-tight text-teal-800">
+    <!-- <a routerLink="/" (click)="close()" class="text-lg font-bold leading-tight text-teal-800">
       {{ ngo.name }}
       <span class="block text-xs font-normal text-gray-500">{{ ngo.nameHindi }}</span>
-    </a>
+    </a> -->
+    <a routerLink="/" (click)="close()" class="flex items-center gap-3">
+  <!-- NGO Logo -->
+  <img src="/ngologo.png" alt="Naya Savera Utthan Welfare Society" class="h-12 w-12 object-contain"/>
+
+  <!-- NGO Name -->
+  <div class="leading-tight">
+    <div class="text-lg font-bold text-teal-800">
+      {{ ngo.name }}
+    </div>
+
+    <span class="block text-xs font-normal text-gray-500">
+      {{ ngo.nameHindi }}
+    </span>
+  </div>
+</a>
 
     <nav class="hidden items-center gap-6 lg:flex">
       @for (l of links; track l.path) {

@@ -59,9 +59,10 @@ export const EVENTS = [
 ];
 
 export const GALLERY = [
+   { src: 'gallery/photo4.png', caption: 'Community Service and Support' },
   { src: 'gallery/photo1.png', caption: 'Health camp'},
   { src: 'gallery/photo2.png', caption: 'Blood donation drive' },
-  { src: 'gallery/photo3.png', caption: 'Winter clothes distribution' },
+  { src: 'gallery/photo3.png', caption: 'Winter clothes distribution' }
   // add more as you get real photos
 ];
 
