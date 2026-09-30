@@ -4,6 +4,7 @@ export const NGO = {
   address: 'Plot 27, Kedar Vihar, Goshala Road, Lucknow, Uttar Pradesh 226003',
   phone: '7007408522',
   phone2: '8181982941',
+  mail: 'nayasaverangoteam@gmail.com',
   registration: { act: 'Societies Registration Act, 1860', number: 'LUC/04314/2023-2024', date: '27 Sep 2023' },
   eightyG: { urn: 'AAJAN2784NF20241', status: 'Provisional approval' }, // update after final approval
   upi: { vpa: 'nayas70074636@barodampay', payeeName: 'Naya Savera Utthan Welfare Society' },
