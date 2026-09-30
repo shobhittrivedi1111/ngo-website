@@ -5,6 +5,7 @@ export const NGO = {
   phone: '7007408522',
   phone2: '8181982941',
   mail: 'nayasaverangoteam@gmail.com',
+  darpanId: 'UP/2026/1204273',
   registration: { act: 'Societies Registration Act, 1860', number: 'LUC/04314/2023-2024', date: '27 Sep 2023' },
   eightyG: { urn: 'AAJAN2784NF20241', status: 'Provisional approval' }, // update after final approval
   upi: { vpa: 'nayas70074636@barodampay', payeeName: 'Naya Savera Utthan Welfare Society' },
@@ -14,7 +15,7 @@ export const NGO = {
   ],
 };
 export const COMMITTEE = [
-  { name: 'Ajay Tiwari', role: 'President' },
+  { name: 'Ajai Tiwari', role: 'President' },
   { name: 'Deepali Tiwari', role: 'Vice President' },
   { name: 'Abhishek Srivastava', role: 'Secretary' },
   { name: 'Bandana Devi', role: 'Treasurer' },
