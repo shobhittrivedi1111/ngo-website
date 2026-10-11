@@ -17,9 +17,12 @@ export class Contact {
   status = signal<'idle' | 'sending' | 'sent' | 'error'>('idle');
 
   constructor(private sanitizer: DomSanitizer) {
-    const rawUrl = `https://www.google.com/maps?q=${encodeURIComponent(NGO.address)}&output=embed`;
+     const rawUrl = 'https://www.google.com/maps?q=26.879025,80.87793&z=17&output=embed';
     this.mapUrl = this.sanitizer.bypassSecurityTrustResourceUrl(rawUrl);
+    
   }
+  mapLink = 'https://www.google.com/maps/dir/?api=1&destination=26.879025,80.87793';
+mapViewLink = 'https://www.google.com/maps?q=26.879025,80.87793';
 
   submit() {
     if (!this.form.name || !this.form.phone || !this.form.message) return;
