@@ -59,11 +59,37 @@ export const EVENTS = [
 ];
 
 export const GALLERY = [
-   { src: 'gallery/photo4.png', caption: 'Community Service and Support' },
-  { src: 'gallery/photo1.png', caption: 'Health camp'},
-  { src: 'gallery/photo2.png', caption: 'Blood donation drive' },
-  { src: 'gallery/photo3.png', caption: 'Winter clothes distribution' }
-  // add more as you get real photos
+   { src: 'gallery/photo4.png', 
+    caption: 'Community Service and Support' },
+  // { src: 'gallery/photo1.png', 
+  //   caption: 'Health camp'},
+  // { src: 'gallery/photo2.png', 
+  //   caption: 'Blood donation drive' },
+  // { src: 'gallery/photo3.png', 
+  //   caption: 'Winter clothes distribution' },
+ {
+    src: 'gallery/photo7.jpeg',
+    caption: 'Free Health Check-up & Awareness Camp, Lucknow – 10 October 2026',
+  },
+  {
+    src: 'gallery/photo5.jpeg',
+    caption: 'Families and children at our free health check-up camp',
+  },
+  {
+    src: 'gallery/photo9.jpeg',
+    caption: 'Free Health Check-up & Awareness Camp poster',
+    tag: 'Poster',
+  },
+  {
+    src: 'gallery/photo6.jpeg',
+    caption: 'Illustration of our free health check-up camp',
+    tag: 'Illustration',
+  },
+  {
+    src: 'gallery/photo8.jpeg',
+    caption: 'Illustrations of our health camp activities',
+    tag: 'Illustration',
+  },
 ];
 
 export const EMAILJS = {
